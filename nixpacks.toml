@@ -1,0 +1,2 @@
+[pahses.setup]
+nixPkgs = ["...", "imagemagick"]

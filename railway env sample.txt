@@ -1,0 +1,12 @@
+RAILS_MAX_THREADS=5
+PORT=3000
+DATABASE_URL=postgresql://${{ PGUSER }}:${{ PGPASSWORD }}@${{ PGHOST }}:${{ PGPORT }}/${{ PGDATABASE }}
+LANG=en_US.UTF-8
+RACK_ENV=production
+RAILS_MASTER_KEY=71855850836ef621341d2d05eb155dc5
+REDIS_URL=redis://default:YqqrVQgqonhbiDJqZLyu@containers-us-west-172.railway.app:6944
+PGDATABASE=railway
+PGHOST=containers-us-west-1.railway.app
+PGPASSWORD=Mnt71EbehMA0FjUIw111
+PGPORT=6810
+PGUSER=postgres
