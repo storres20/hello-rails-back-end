@@ -84,12 +84,7 @@ test:
 #
 production:
   <<: *default
-  # database: hello_rails_back_end_production
-  # username: hello_rails_back_end
-  # password: <%= ENV["HELLO_RAILS_BACK_END_DATABASE_PASSWORD"] %>
-  host: bckztqfmj8nnux9ayo0k-postgresql.services.clever-cloud.com
-  port: 5432
-  database: bckztqfmj8nnux9ayo0k
-  username: uo4nl0ylk92albgwxiiz
-  password: RECP2rh0e8XYB5KXbR5vk0PlEKi12a
   url: <%= ENV['DATABASE_URL'] %>
+  database: hello_rails_back_end_production
+  username: hello_rails_back_end
+  password: <%= ENV["HELLO_RAILS_BACK_END_DATABASE_PASSWORD"] %>
